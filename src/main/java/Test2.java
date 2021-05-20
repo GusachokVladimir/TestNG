@@ -10,7 +10,19 @@ public class Test2 {
                 {"parameter2", new Integer(2)}
         };
     }
+/*
+    @BeforeClass
+    @Test
+    public void Begin(){
+        System.out.println("Begin");
+    }
 
+    @AfterClass
+    @Test
+    public void Finish(){
+        System.out.println("Finish");
+    }
+*/
 
     public void testUnstable1(){
         System.out.println("TestUnstable 1");

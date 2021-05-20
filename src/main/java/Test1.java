@@ -64,13 +64,13 @@ public class Test1{
         System.out.println("TestUnstable 1-3");
     }
 
-    @BeforeClass
+    @BeforeTest
     @Test
     public void Begin(){
         System.out.println("Begin");
     }
 
-    @AfterClass
+    @AfterTest
     @Test
     public void Finish(){
         System.out.println("Finish");

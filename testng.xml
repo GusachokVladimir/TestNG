@@ -12,20 +12,26 @@
         </groups>
 
         <classes>
-            <class name="Test1"></class>
+            <class name="Test1"/>
         </classes>
     </test>
 
     <test name = "TestParameters">
-        <parameter name="parameters" value="111111111"></parameter>
+        <parameter name="parameters" value="111111111"/>
         <classes>
-            <class name="Test2"></class>
+            <class name="Test2"/>
         </classes>
     </test>
 
     <test name ="TestBeforeAfter1">
         <classes>
-            <class name="Test1"></class>
+            <class name="Test1"/>
+        </classes>
+    </test>
+
+    <test name ="TestBeforeAfter2">
+        <classes>
+            <class name="Test2"/>
         </classes>
     </test>
 
